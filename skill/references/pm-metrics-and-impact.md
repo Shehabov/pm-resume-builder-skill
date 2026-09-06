@@ -1,4 +1,4 @@
-# PM Metrics & Impact — What to Show, by Archetype
+# PM Metrics & Impact, What to Show, by Archetype
 
 **Sources:** Exponent PM resume guide (metric-to-role matching), Reforge (growth + PLG frameworks), Amplitude/Mixpanel product-analytics conventions, Lenny Rachitsky benchmarks.
 
@@ -13,7 +13,7 @@ The rule from every serious PM resume guide: **match the metrics you cite to the
 - **Engagement:** DAU/WAU/MAU, DAU/MAU ratio, sessions, feature adoption, depth of use
 - **Retention:** D1/D7/D30 retention, cohort retention, churn, resurrection
 - **Monetization:** revenue, ARR/MRR, GMV, ARPU, expansion/upsell, gross margin, LTV, LTV/CAC
-- **Conversion:** free→paid, trial→paid, funnel step conversion, checkout completion
+- **Conversion:** free, paid, trial, paid, funnel step conversion, checkout completion
 - **Quality / satisfaction:** NPS, CSAT, support ticket volume, bug/defect rate
 - **Delivery / operating:** time-to-market, cycle time, release cadence, roadmap predictability
 - **Reliability / platform:** uptime, p95/p99 latency, error rate, cost per request, scalability
@@ -29,7 +29,7 @@ The rule from every serious PM resume guide: **match the metrics you cite to the
 | **Core / Feature PM** | adoption, engagement, task success, NPS | "80% enterprise adoption and +25% completions in one quarter" |
 | **Platform / Technical PM** | latency, uptime, cost, scalability, API adoption | "cut p95 latency 40% and infra cost 15% at 2M req/day" |
 | **Monetization PM** | revenue, ARPU, margin, expansion | "unlocked $600K new Tier-1 revenue; +5% ARPU among adopters" |
-| **0→1 PM** | launch, early traction, users reached, revenue to date | "shipped 3 platforms to tens of thousands of users, $100K+ revenue before exit" |
+| **0 to 1 PM** | launch, early traction, users reached, revenue to date | "shipped 3 platforms to tens of thousands of users, $100K+ revenue before exit" |
 | **AI / ML PM** | eval/task-success, quality vs latency vs cost tradeoffs, AI-feature adoption | "shipped an AI assistant at 92% task success, holding p95 under 2s and cost under $0.01/call" |
 | **B2B / Enterprise PM** | logos/enterprises, seat adoption, contract/expansion value, time-to-market | "drove adoption across 50+ enterprises; cut time-to-market 30%" |
 
@@ -38,9 +38,9 @@ The rule from every serious PM resume guide: **match the metrics you cite to the
 ## Turning a vague achievement into a metric (interview questions to ask the user)
 
 For any achievement without a number, ask:
-1. **What moved?** (the metric — pick from the families above)
+1. **What moved?** (the metric, pick from the families above)
 2. **By how much, from what baseline, over what time?** ("from 12% to 18% in one quarter")
-3. **How do you know?** (the instrument — A/B test, dashboard, cohort analysis)
+3. **How do you know?** (the instrument, A/B test, dashboard, cohort analysis)
 4. **So what for the business?** ($ revenue, cost saved, risk reduced, users reached)
 5. **What was the scope?** (users affected, team size, product lines)
 
@@ -52,8 +52,8 @@ If a precise number is genuinely unavailable, convert to an honest **scale state
 
 Two things now show up across almost every PM screen (per Exponent's 2026 guidance):
 
-1. **Metrics ownership** — evidence you *defined and owned* success metrics and *made tradeoff calls*, not just reported on them. Phrase it: "defined the North Star (weekly active teams) and the guardrails, then made the launch/hold call on…".
-2. **AI product work** — for any AI-adjacent role, show you shipped AI features, ran model evals, or traded off latency / cost / quality. Even non-AI PMs benefit from one line proving AI fluency.
+1. **Metrics ownership**, evidence you *defined and owned* success metrics and *made tradeoff calls*, not just reported on them. Phrase it: "defined the North Star (weekly active teams) and the guardrails, then made the launch/hold call on…".
+2. **AI product work**, for any AI-adjacent role, show you shipped AI features, ran model evals, or traded off latency / cost / quality. Even non-AI PMs benefit from one line proving AI fluency.
 
 ---
 

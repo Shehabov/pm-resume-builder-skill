@@ -6,20 +6,20 @@ There are three ways to use it.
 
 ---
 
-## Option 1 — Install in Claude.ai (easiest)
+## Option 1, Install in Claude.ai (easiest)
 
 1. Download **[`pm-resume-builder.skill`](../pm-resume-builder.skill)** from this repository.
-2. In Claude.ai, open **Settings → Capabilities → Skills** (or **Settings → Skills**).
+2. In Claude.ai, open **Settings, Capabilities, Skills** (or **Settings, Skills**).
 3. Click **Upload skill** and select the `.skill` file.
 4. Start a chat and say: *"Help me build my product manager resume."* Attach your current CV if you have one.
 
-> **What is a `.skill` file?** A zip of the skill's instructions (`SKILL.md`) and reference guides. Once uploaded, Claude uses it automatically when your request is about a PM resume — you don't have to invoke it manually.
+> **What is a `.skill` file?** A zip of the skill's instructions (`SKILL.md`) and reference guides. Once uploaded, Claude uses it automatically when your request is about a PM resume, you don't have to invoke it manually.
 
 **Requirement:** the skill uses Claude's **`docx`** capability to produce the Word file and a PDF. This works in Claude.ai and Claude Code where document tools are available.
 
 ---
 
-## Option 2 — Use with Claude Code / the Agent SDK
+## Option 2, Use with Claude Code / the Agent SDK
 
 Clone and drop the skill into your user skills directory:
 
@@ -32,7 +32,7 @@ Then, in any Claude Code session, ask: *"Rebuild my PM resume from this file"* a
 
 ---
 
-## Option 3 — Read the guides manually (no install)
+## Option 3, Read the guides manually (no install)
 
 The reference files in [`skill/references/`](../skill/references/) are standalone playbooks you can apply by hand:
 
@@ -52,14 +52,14 @@ The reference files in [`skill/references/`](../skill/references/) are standalon
 Once installed, the skill runs a simple, guided flow:
 
 1. **Give it your current CV** (attach a PDF/DOCX, or paste it). No CV? It builds from scratch by asking.
-2. **Claude diagnoses it** in a few lines — what's weak and why.
-3. **Claude asks targeted questions** — target role, PM archetype (Growth / Core / Platform / AI / Monetization / 0→1), scope per role, and the missing numbers.
+2. **Claude diagnoses it** in a few lines, what's weak and why.
+3. **Claude asks targeted questions**, target role, PM archetype (Growth / Core / Platform / AI / Monetization / 0 to 1), scope per role, and the missing numbers.
 4. **You pick a template** (or ask Claude to recommend one for your seniority + archetype).
 5. **Claude ships the resume** in that template as **both `.docx` (to edit) and `.pdf` (to send)**, then runs an ATS + quality checklist.
 
 ### Things to try
 - *"Rebuild my resume in the Executive Serif template."*
-- *"I'm a Growth PM — recommend a template and quantify my bullets."*
+- *"I'm a Growth PM, recommend a template and quantify my bullets."*
 - *"Tailor my PM resume to this job description:"* (paste the JD)
 - *"Review my PM resume against best practices."*
 

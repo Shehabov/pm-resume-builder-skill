@@ -10,7 +10,7 @@ A recruiter reads a PM bullet in about one second. It has to carry a result on i
 
 **`[Action verb] + [what you shipped or owned] + [for whom / scope / domain] + [the measurable outcome]`**
 
-Push the metric toward the front when you have a strong one ("Cut checkout drop-off 22% by…"). This is the "skill: accomplishment" / TAR (Task–Action–Result) structure every top PM guide converges on.
+Push the metric toward the front when you have a strong one ("Cut checkout drop-off 22% by…"). This is the "skill: accomplishment" / TAR (Task-Action-Result) structure every top PM guide converges on.
 
 ### The transformation that matters most
 
@@ -26,13 +26,13 @@ The pattern: **remove the duty framing, name the surface you owned, name who it 
 
 ---
 
-## Show the PM arc: strategy → execution → impact
+## Show the PM arc: strategy, execution, impact
 
 Recruiters read a PM through three lenses. Cover all three across a role's bullets.
 
-- **Strategy / product sense** — what problem, what bet, what tradeoff, what success metric you defined and owned. *Senior resumes lead with these.*
-- **Execution / delivery** — what you actually shipped, with whom, at what scope and speed. *Early-career resumes lead with these.*
-- **Impact** — the number that moved and the business result.
+- **Strategy / product sense**, what problem, what bet, what tradeoff, what success metric you defined and owned. *Senior resumes lead with these.*
+- **Execution / delivery**, what you actually shipped, with whom, at what scope and speed. *Early-career resumes lead with these.*
+- **Impact**, the number that moved and the business result.
 
 A strong role usually has: 1-2 strategy/ownership bullets, 2-3 execution bullets, and each one lands an outcome.
 
@@ -40,7 +40,7 @@ A strong role usually has: 1-2 strategy/ownership bullets, 2-3 execution bullets
 
 Under each role title, add ONE line describing the company/product, its scale, and what you owned. This is the single biggest differentiator on a PM resume.
 
-> **Lead Product Manager**, Lumofy — Riyadh, SA — Aug 2024 – Present
+> **Lead Product Manager**, Lumofy, Riyadh, SA, Aug 2024 - Present
 > *AI-powered talent-development SaaS ($40M valuation, 500+ MENA enterprises). Led 5 core product lines end-to-end and headed the product department.*
 
 Without it, "Launched Performance Management 2.0" is a mystery. With it, the recruiter instantly understands the stakes.
@@ -88,7 +88,7 @@ Use digits, show the baseline or scale, and tie to business value.
 - Use digits, not spelled-out numbers (8, not eight; 18%, not eighteen percent).
 - Order bullets most-impressive-first within each role.
 - Bullets per role: **5-7** for the two most recent, **3-5** for the next, **2-3** for old roles.
-- Vary the opening verb across bullets in a role — never start three bullets the same way.
+- Vary the opening verb across bullets in a role, never start three bullets the same way.
 - Avoid sub-bullets, and avoid ampersands/slashes where a word reads cleaner.
 
 ---

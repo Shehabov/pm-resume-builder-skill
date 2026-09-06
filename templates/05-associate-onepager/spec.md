@@ -1,4 +1,4 @@
-# 05 · Associate One-Pager — build spec
+# 05 · Associate One-Pager, build spec
 
 - **Font:** Calibri (fallback Arial). Tuned to fit ONE page.
 - **Sizes:** Name 16-18pt bold, headings 11.5pt bold, body 10.5pt.

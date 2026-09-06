@@ -8,11 +8,11 @@
 
 An ATS is a **database + workflow tool** for recruiters, not an AI gatekeeper. Most systems do **not** auto-reject on a score. The steep dropoff is a **human** spending 6-8 seconds, not a robot. So the priorities are, in order:
 
-1. **Be parseable** — single column, standard headings, text-based PDF/DOCX, no tables-for-layout, no images.
-2. **Be scannable by a human** — title, seniority, scope, and a big number visible instantly.
-3. **Mirror the JD's language** — use the exact terms the job description uses *when you genuinely have that experience*.
+1. **Be parseable**, single column, standard headings, text-based PDF/DOCX, no tables-for-layout, no images.
+2. **Be scannable by a human**, title, seniority, scope, and a big number visible instantly.
+3. **Mirror the JD's language**, use the exact terms the job description uses *when you genuinely have that experience*.
 
-**Myths to ignore:** "PDFs break ATS" (false for all modern ATS), "you need X% keyword density" (false), "white-text keywords" (never — it gets flagged), "75% auto-rejected by bots" (a fabricated stat from vendors). Standard, clean formatting wins.
+**Myths to ignore:** "PDFs break ATS" (false for all modern ATS), "you need X% keyword density" (false), "white-text keywords" (never, it gets flagged), "75% auto-rejected by bots" (a fabricated stat from vendors). Standard, clean formatting wins.
 
 ---
 
@@ -44,7 +44,7 @@ enterprise, SaaS, B2B, onboarding, admin/permissions, SSO, compliance, SLAs, cus
 
 ## Tailoring a PM resume to a job description
 
-1. **Extract the JD's outcomes + language:** what the role owns, the metrics it cares about (growth? platform? monetization?), the seniority signals (strategy, mentoring, 0→1), and the exact tool/keyword phrasing.
+1. **Extract the JD's outcomes + language:** what the role owns, the metrics it cares about (growth? platform? monetization?), the seniority signals (strategy, mentoring, 0 to 1), and the exact tool/keyword phrasing.
 2. **Map to your experience:** for each JD priority, find your matching bullet. If it is true but missing, add it.
-3. **Reorder, don't fabricate:** move the most relevant bullets to the top of each role, retune the summary's targeted role and lead metric, and adjust the Skills lead line. Never add experience you do not have — you will be asked about everything in the interview.
+3. **Reorder, don't fabricate:** move the most relevant bullets to the top of each role, retune the summary's targeted role and lead metric, and adjust the Skills lead line. Never add experience you do not have, you will be asked about everything in the interview.
 4. **Match the metric family** to the role (see `pm-metrics-and-impact.md`).
