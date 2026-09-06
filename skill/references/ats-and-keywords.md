@@ -1,6 +1,6 @@
 # ATS & PM Keyword Bank
 
-**Sources:** The Tech Resume Inside Out (ATS myths), Exponent, IGotAnOffer ("40 PM resume keywords"), Lever.
+**Sources:** The Tech Resume Inside Out (ATS myths and the hiring pipeline), Tech Interview Handbook (FAANG and ATS friendly formatting), r/EngineeringResumes (community tested mechanics), Exponent, IGotAnOffer ("40 PM resume keywords"), Lever.
 
 ---
 
@@ -13,6 +13,16 @@ An ATS is a **database + workflow tool** for recruiters, not an AI gatekeeper. M
 3. **Mirror the JD's language**, use the exact terms the job description uses *when you genuinely have that experience*.
 
 **Myths to ignore:** "PDFs break ATS" (false for all modern ATS), "you need X% keyword density" (false), "white-text keywords" (never, it gets flagged), "75% auto-rejected by bots" (a fabricated stat from vendors). Standard, clean formatting wins.
+
+**FAANG and big-tech formatting rules** (Tech Interview Handbook, r/EngineeringResumes), which the templates already follow:
+
+- One column only. Two-column layouts scramble in the parser and bury the right-hand column.
+- Standard section headings a parser expects: Summary, Experience, Skills, Education. No clever renames.
+- Reverse chronological order, most recent role first, with clear "Present" on the current role.
+- Real dates on the right (Mon YYYY), consistent format across every role.
+- No text inside headers, footers, images, or text boxes, parsers routinely drop those regions.
+- Standard fonts, plain bullet characters, digits not spelled-out numbers, plain-text URLs.
+- Export a text-based PDF and confirm it with `pdftotext`, if the text comes back clean and ordered, the ATS reads it the same way.
 
 ---
 

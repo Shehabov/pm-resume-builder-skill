@@ -22,8 +22,10 @@ It reads your old CV, asks the right questions, and ships a sharp, recruiter gra
 
 - [What it does](#what-it-does)
 - [How it works](#how-it-works)
+- [Trigger phrases](#trigger-phrases)
 - [The 5 templates](#the-5-templates-all-ats-guaranteed)
 - [Install](#install)
+- [Works with your MCPs](#works-with-your-mcps)
 - [Documentation](#documentation)
 - [Knowledge sources](#knowledge-sources)
 - [CV key principles](#cv-key-principles)
@@ -70,6 +72,41 @@ The flow, in words:
 
 ---
 
+## Trigger phrases
+
+You do not need a special command. Once the skill is installed, Claude picks it up from plain language. Any of these will start it:
+
+**Build a new resume**
+- "Create my resume" or "Build my CV"
+- "Help me make a product manager resume"
+- "I need a PM resume from scratch"
+- "Turn my LinkedIn into a resume"
+
+**Improve an existing one**
+- "Optimize my resume" or "Improve my CV"
+- "Review my resume" or "Give me a resume review"
+- "What is weak in my resume?"
+- "Rewrite my bullets to show impact"
+
+**Pass the ATS**
+- "Make it ATS friendly"
+- "Will this pass an ATS?"
+- "Format my resume for applicant tracking systems"
+
+**Tailor to a role**
+- "Tailor my resume to this job description"
+- "Match my CV to this PM role"
+- "Help me apply for this job"
+
+**Other ways in**
+- "Help me get hired as a PM"
+- "Hoja de vida" or "Curriculum vitae"
+- Any mention of a job application together with resume or CV
+
+When more than one could apply, Claude asks a quick clarifying question before it starts.
+
+---
+
 ## The 5 templates (all ATS guaranteed)
 
 Every template is single column, standard font, text based, and graphics free, so it parses cleanly in Greenhouse, Workday, Lever, Ashby, iCIMS, and Taleo. "ATS guaranteed" means the exported PDF returns clean, ordered text via `pdftotext`, which the skill verifies on export.
@@ -100,6 +137,28 @@ Full walkthrough with all three methods and examples: **[docs/INSTALLATION.md](.
 
 ---
 
+## Works with your MCPs
+
+The skill works on its own with an attached file. It gets more powerful when you connect an MCP, because Claude can then read your inputs and hand back the finished files where you actually keep them, in one conversation.
+
+| If you connect | The skill can |
+|---|---|
+| **Google Drive / Docs MCP** | Read your current CV straight from Drive, then save the finished `.docx` and `.pdf` back to a folder you name, no upload or download step |
+| **Gmail MCP** | Pull a job description out of a recruiter email, then draft the application reply with the tailored resume ready to attach (it drafts, you send) |
+| **Filesystem MCP** (Claude Code, desktop) | Read the CV from a local path and write both files next to it |
+| **Notion or Confluence MCP** | Pull role details or your brag document, and drop a copy of the resume into your job search page |
+| **A web or fetch MCP** | Read a job description from a posting URL you paste, then tailor to it |
+
+How it looks in practice:
+
+> "Read my CV from Google Drive, rebuild it in the Growth and Metrics template, tailor it to the JD in this email, and save both files back to my Job Search folder."
+
+Claude reads the CV over the Drive MCP, pulls the JD over the Gmail MCP, runs the normal diagnose, ask, write, verify flow, then writes the `.docx` and `.pdf` back over the Drive MCP. No MCP is required. Anything the skill cannot reach, it simply asks you to paste or attach.
+
+> Guardrails still apply. Claude drafts emails and saves files, and it asks before it sends anything or changes anything you did not request.
+
+---
+
 ## Documentation
 
 | Doc | What is inside |
@@ -127,7 +186,9 @@ This skill was built by researching and synthesizing the best product manager re
 | [HustleBadger, Write a PM Resume](https://www.hustlebadger.com/what-do-product-teams-do/write-a-pm-resume/) | Impact not process, TAR and CAR structure, the 6 to 8 second scan |
 | Reforge, Amplitude and Mixpanel, Lenny Rachitsky, Shreyas Doshi | Growth metrics, analytics conventions, product sense framing |
 | [Harvard Career Services](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/) | Language principles, action verbs, top mistakes |
-| [The Tech Resume Inside Out](https://thetechresume.com/samples/ats-myths-busted) | ATS myths debunked, the hiring pipeline |
+| [r/EngineeringResumes](https://www.reddit.com/r/EngineeringResumes/wiki/index/) | Tech specific, community tested formatting patterns that survive real ATS screens |
+| [The Tech Resume Inside Out](https://thetechresume.com/samples/ats-myths-busted) | The hiring pipeline, ATS myths debunked, the recruiter perspective |
+| [Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/) | FAANG resume optimization and ATS friendly formatting |
 | Google XYZ formula, Columbia STAR, Lever | Achievement based bullets, ATS reality |
 
 ---

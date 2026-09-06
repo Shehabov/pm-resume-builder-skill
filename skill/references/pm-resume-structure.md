@@ -1,6 +1,6 @@
 # PM Resume Structure & Format
 
-**Sources:** Harvard Career Services, IGotAnOffer, Exponent, HustleBadger, The Tech Resume Inside Out (ATS), r/EngineeringResumes (formatting mechanics).
+**Sources:** Harvard Career Services, IGotAnOffer, Exponent, HustleBadger, The Tech Resume Inside Out (ATS), Tech Interview Handbook (FAANG section order and formatting), r/EngineeringResumes (formatting mechanics).
 
 PMs are screened on scope and outcomes, so the structure differs from an engineering resume in three ways: **keep a strong summary, put Experience first (not Skills), and lead each role with a company-context line.**
 

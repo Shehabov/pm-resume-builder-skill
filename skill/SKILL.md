@@ -1,6 +1,6 @@
 ---
 name: pm-resume-builder
-description: "Use this skill whenever the user wants to create, improve, rewrite, review, tailor, or ATS-optimize a PRODUCT MANAGER resume or CV. Triggers include any mention of 'PM resume', 'product manager resume', 'product resume', 'PM CV', 'product management CV', or a request to turn product/PM experience into a resume, quantify product impact, write PM bullet points, add product metrics (activation, retention, revenue, adoption), tailor a PM resume to a job description, pick a PM resume template, or prepare a resume for an APM / PM / Senior PM / Lead PM / Group PM / Director of Product / Head of Product / CPO application. Also use for AI Product Manager, Growth PM, Platform/Technical PM, and Product Owner resumes. Do NOT use for engineering-only resumes, LinkedIn profile rewrites, portfolios, or cover letters unless the resume is the main deliverable."
+description: "Use this skill whenever the user wants to create, improve, rewrite, review, tailor, or ATS-optimize a PRODUCT MANAGER resume or CV. Triggers include any mention of 'PM resume', 'product manager resume', 'product resume', 'PM CV', 'product management CV', plain-language asks like 'create my resume', 'build my CV', 'optimize my resume', 'improve my CV', 'review my resume', 'make it ATS-friendly', 'tailor my resume to this job description', 'help me get hired', and the Spanish terms 'hoja de vida' or 'curriculum vitae', or a request to turn product/PM experience into a resume, quantify product impact, write PM bullet points, add product metrics (activation, retention, revenue, adoption), tailor a PM resume to a job description, pick a PM resume template, or prepare a resume for an APM / PM / Senior PM / Lead PM / Group PM / Director of Product / Head of Product / CPO application. Also use for AI Product Manager, Growth PM, Platform/Technical PM, and Product Owner resumes. Do NOT use for engineering-only resumes, LinkedIn profile rewrites, portfolios, or cover letters unless the resume is the main deliverable."
 ---
 
 # Product Manager Resume Builder, Recruiter-Grade, ATS-Guaranteed
@@ -27,6 +27,8 @@ This is the primary path the user expects: *take my old CV, ask me questions, sh
 
 ### Step 0, Read their current CV
 If the user attaches or points to an existing resume, **read it fully first** (PDF/DOCX/text). Extract: roles, companies, dates, scope, any numbers, education, certs. Do not start asking questions until you have read what they already have. If they have no CV, skip to Step 2 and gather from scratch.
+
+**If an MCP is connected, use it for inputs.** When the user has a Google Drive, filesystem, Gmail, Notion, or web/fetch MCP available, read the source directly instead of asking for an upload: pull the CV from Drive or a local path, read a job description from a Gmail thread or a posting URL, or pull role context from Notion. Only fall back to asking the user to paste or attach when no MCP can reach the source.
 
 ### Step 1, Diagnose (say what is weak, briefly)
 In 3-6 lines, tell them what is holding the current resume back, using this skill's standards: missing metrics, vague "responsible for" bullets, "worked cross-functionally" filler, no scope/context per role, wrong section order, over-length, weak summary. Be specific and kind. This earns trust and sets up the questions.
@@ -71,6 +73,7 @@ Deliver **both** `.docx` (to edit) and `.pdf` (to send).
 - **Verify it is text-based / ATS-parseable:** `pdftotext resume.pdf -` and confirm the name, titles, and metrics come out as real text.
 - Check page count with `pdfinfo` and that nothing truncates.
 - Run the **delivery checklist** below.
+- **If an MCP is connected, deliver where the user keeps their files.** Save both `.docx` and `.pdf` back to the Google Drive folder or local path they name, or draft a Gmail reply with the resume ready to attach. Ask before sending anything or writing outside the location they asked for.
 
 ---
 

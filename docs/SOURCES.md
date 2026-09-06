@@ -24,6 +24,7 @@ Every source consulted to build this skill, and where each insight is applied. T
 | [Harvard Career Services, Create a Strong Resume](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/) | Language principles (specific, active, fact based, scannable), the top 5 mistakes, action verb tables, the do and do not list |
 | [r/EngineeringResumes wiki](https://www.reddit.com/r/EngineeringResumes/wiki/index/) | Formatting mechanics: single column, date formats, "Present", no periods on bullets, digits not words, plain text URLs, ATS safe fonts |
 | [The Tech Resume Inside Out, ATS Myths Busted and Hiring Pipeline](https://thetechresume.com/samples/ats-myths-busted) | ATS is a human workflow tool and not an auto rejecting robot, the fabricated "75%" stat, PDF is fine, tailor for humans |
+| [Tech Interview Handbook, Resume Guide](https://www.techinterviewhandbook.org/resume/) | FAANG resume optimization, ATS friendly formatting rules, single column and standard section order, what top tech screens reward |
 | [Google XYZ formula](https://www.inc.com/bill-murphy-jr/google-recruiters-say-using-this-6-second-trick-doubled-their-number-of-quality-interviews.html) | "Accomplished X as measured by Y by doing Z", the basis of the PM bullet formula |
 | [Columbia University, STAR bullet points](https://www.careereducation.columbia.edu/resources/resumes-impact-creating-strong-bullet-points) | Situation, Task, Action, Result condensed into one or two lines |
 | [Lever, ATS Myths Debunked](https://www.lever.co/blog/applicant-tracking-system-myths/) | How recruiters actually use an ATS, and why you cannot game it |
@@ -37,8 +38,8 @@ Every source consulted to build this skill, and where each insight is applied. T
 | `SKILL.md` | Exponent (flow and archetypes), HustleBadger (impact not process), IGotAnOffer, Harvard |
 | `references/pm-bullet-writing.md` | Exponent, HustleBadger, IGotAnOffer, Google XYZ, Columbia STAR, Harvard verbs |
 | `references/pm-metrics-and-impact.md` | Exponent (metric to role), Reforge, Amplitude and Mixpanel, Lenny |
-| `references/pm-resume-structure.md` | IGotAnOffer, Exponent, Harvard, r/EngineeringResumes (mechanics), The Tech Resume (ATS) |
-| `references/ats-and-keywords.md` | The Tech Resume Inside Out, Exponent, the IGotAnOffer keyword bank, Lever |
+| `references/pm-resume-structure.md` | IGotAnOffer, Exponent, Harvard, r/EngineeringResumes (mechanics), The Tech Resume and Tech Interview Handbook (ATS and section order) |
+| `references/ats-and-keywords.md` | The Tech Resume Inside Out, Tech Interview Handbook (FAANG and ATS formatting), Exponent, the IGotAnOffer keyword bank, Lever |
 | `references/common-mistakes.md` | IGotAnOffer, Exponent, HustleBadger, Harvard top 5 |
 | `references/pm-templates.md` | Synthesis, plus the real example in `examples/` |
 
