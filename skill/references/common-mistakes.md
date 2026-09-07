@@ -32,6 +32,9 @@ Only shipping bullets makes a senior PM look like a project manager. Only strate
 ### 8. Over-length / equal weight to old roles
 Two most recent roles get 5-7 bullets; older roles shrink to 2-3. A 3-page resume or a 10-year-old role with 6 bullets signals poor prioritization, ironic for a PM.
 
+### 9. The sameness trap
+A hundred FAANG-optimized resumes share the same shape, and a screener who has read those hundred spots the template before a human does. The shape is shared on purpose: single column, standard headings, a text PDF. That is parseability, and it should rhyme. The signal underneath must not. Distinctiveness lives in specifics a model cannot invent and a pattern cannot match away: the company-context line (real scale and domain), numbers with a baseline, and the actual decision and tradeoff behind each win. Do not reach for a rarer template to stand out, reach for more specific content. Two bullets that make the same point in different words are the small version of this trap: keep the stronger one, or split them by metric, scope, or decision.
+
 ---
 
 ## Formatting mistakes (also ATS-breaking)

@@ -16,6 +16,7 @@ Turns a product manager's messy history into a sharp, recruiter-grade, ATS-safe 
 - `references/pm-templates.md`, the 5 supported templates + how to trigger each
 - `references/ats-and-keywords.md`, ATS reality, PM keyword bank, tailoring
 - `references/common-mistakes.md`, the PM-specific traps to avoid
+- `references/qa-review-agents.md`, the two mandatory QA passes (FAANG Recruiter, Head of Product) to run before delivery
 
 Then use the **`docx` skill** to produce the file, and always deliver **both `.docx` and `.pdf`**.
 
@@ -67,7 +68,15 @@ Follow `references/pm-bullet-writing.md`. Core rules:
 ### Step 5, Format in the chosen template
 Follow `references/pm-resume-structure.md` and the specific template spec. Build with the `docx` skill. Single column, ATS-safe font, no tables-for-layout, no icons/graphics, standard section names, right-aligned dates with a hyphen.
 
-### Step 6, Export PDF + verify (mandatory)
+### Step 6, Run the two QA agents (mandatory)
+Before exporting, put the draft through two strict review passes from `references/qa-review-agents.md`. Adopt each persona fully and give the user both reports in plain language.
+
+1. **The FAANG Recruiter** grades it like a real screen: outcome bullets, metrics with a baseline, ATS mechanics, archetype match, no fabrication, and the sameness trap (near-identical bullets, or content so generic it could belong to any PM). Verdict: SCREEN or PASS, plus the fixes that flip it.
+2. **The Head of Product** reads it as a career story: throughline, growing scope, arc within roles, and any gaps, date overlaps, or discrepancies between the summary's promise and the experience.
+
+Apply every fix that needs no new fact. For anything that needs a number, a date, or a decision only the user knows, **ask, do not invent.** When two bullets say the same thing, or a story has a hole, surface it to the user rather than shipping it quietly. Re-run the affected checklist items after edits.
+
+### Step 7, Export PDF + verify (mandatory)
 Deliver **both** `.docx` (to edit) and `.pdf` (to send).
 - Convert via LibreOffice: `soffice --headless --convert-to pdf resume.docx`
 - **Verify it is text-based / ATS-parseable:** `pdftotext resume.pdf -` and confirm the name, titles, and metrics come out as real text.
@@ -84,7 +93,8 @@ Deliver **both** `.docx` (to edit) and `.pdf` (to send).
 | "Rebuild my PM resume from my old one" | The full flow above (read, diagnose, ask, template, write, export) |
 | "Make my PM resume from scratch" | Skip Step 0, gather in Step 2, then build |
 | "Tailor my PM resume to this JD" | Extract the JD's outcomes + keywords, map to their experience, reorder bullets and summary, do not invent |
-| "Review my PM resume" | Audit against the delivery checklist + `common-mistakes.md`, give specific rewrites |
+| "Review my PM resume" | Run both QA agents (`qa-review-agents.md`) plus the delivery checklist, give specific rewrites and flag story gaps |
+| "Is my resume too generic / will it stand out?" | Run the FAANG Recruiter pass and the sameness-trap checks (`common-mistakes.md`, `ats-and-keywords.md`), differentiate on specifics |
 | "Quantify my bullets" | For each bullet, ask for metric + baseline + result, apply the PM formula |
 | "Which template should I use?" | Recommend by seniority/archetype from `pm-templates.md` |
 | "Make it ATS-friendly" | Enforce single column, standard headings, text-based PDF, JD keyword mirroring |
@@ -116,6 +126,13 @@ Deliver **both** `.docx` (to edit) and `.pdf` (to send).
 - [ ] Dates right-aligned with a hyphen, "Present" for current
 - [ ] 1 page (<5 yrs) or 2 pages (5+ yrs); page 2 at least half full
 - [ ] Links are plain text, black, clickable
+
+**QA agents (both passes run and reported):**
+- [ ] FAANG Recruiter verdict is SCREEN, or the remaining PASS reasons are surfaced to the user
+- [ ] No two bullets make the same point; near-duplicates merged or split by metric, scope, or decision
+- [ ] Nothing reads generic enough to belong to any PM (the sameness trap)
+- [ ] Head of Product throughline is clear, scope rises over time
+- [ ] Story gaps, date overlaps, and summary-vs-experience discrepancies flagged to the user, none invented away
 
 **Delivery:**
 - [ ] PDF generated and verified text-based with `pdftotext`

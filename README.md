@@ -22,6 +22,7 @@ It reads your old CV, asks the right questions, and ships a sharp, recruiter gra
 
 - [What it does](#what-it-does)
 - [How it works](#how-it-works)
+- [Built-in QA, two review agents](#built-in-qa-two-review-agents)
 - [Trigger phrases](#trigger-phrases)
 - [The 5 templates](#the-5-templates-all-ats-guaranteed)
 - [Install](#install)
@@ -44,6 +45,7 @@ It will:
 - **Write outcome bullets, not duty bullets,** using the PM TAR formula (Task, Action, Result) with the metric pushed to the front.
 - **Show the right metrics for your archetype:** Growth, Core, Platform, Monetization, 0 to 1, or AI PM. See the [metrics guide](./skill/references/pm-metrics-and-impact.md).
 - **Guarantee ATS parseability:** single column, standard fonts, text based PDF, no tables for layout and no graphics, verified with `pdftotext` on export.
+- **Put it through two QA agents before it ships.** A strict FAANG recruiter pass and a Head of Product story pass catch weak bullets, generic sameness, and gaps in your story, and surface anything that needs your call.
 - **Deliver both `.docx` and `.pdf`,** one to edit and one to send.
 - **Tailor to a job description** by mirroring its language and reordering to what the role screens for, without fabricating anything.
 
@@ -57,7 +59,8 @@ flowchart LR
   B --> C["Asks targeted questions<br/>role, archetype, scope, numbers"]
   C --> D["You pick a template<br/>(or Claude recommends one)"]
   D --> E["Writes outcome bullets<br/>plus company context and metrics"]
-  E --> F["Exports .docx and .pdf<br/>verified ATS parseable"]
+  E --> F["Two QA agents review<br/>FAANG Recruiter and Head of Product"]
+  F --> G["Exports .docx and .pdf<br/>verified ATS parseable"]
 ```
 
 The flow, in words:
@@ -66,9 +69,23 @@ The flow, in words:
 2. **It diagnoses** the resume in a few honest lines against PM best practices.
 3. **It asks** only what it needs: target role and seniority, your PM archetype, the scope you owned per role, and, where most PM resumes fail, the numbers.
 4. **You choose a template** (or ask for a recommendation by seniority and archetype).
-5. **It ships** the resume in that template as `.docx` plus `.pdf`, then runs a full ATS and quality checklist.
+5. **Two QA agents review it** before anything ships (see below).
+6. **It ships** the resume in that template as `.docx` plus `.pdf`, then runs a full ATS and quality checklist.
 
 > Nothing is invented. If a metric is unknown, Claude asks or uses an honest scale statement. Everything on the resume must survive an interview.
+
+---
+
+## Built-in QA, two review agents
+
+Before the resume ships, it goes through two strict review passes. Each one is a persona Claude fully adopts, and each writes you a short, blunt report. The rule for both: they review only what the resume actually says and what you told Claude, so they flag gaps as questions and never invent a fact to fill one.
+
+| Agent | Plays | What it checks |
+|---|---|---|
+| **The FAANG Recruiter** | A senior tech recruiter screening in 6 to 8 seconds | Outcome bullets, metrics with a baseline, archetype match, ATS mechanics, keyword mirroring, no fabrication, and the sameness trap: near-identical bullets or content so generic it could belong to any PM. Verdict is SCREEN or PASS, with the fixes that flip it. |
+| **The Head of Product** | A Head of Product reading your resume as a career story | The throughline, whether scope grows over time, the strategy-execution-impact arc, and any gaps, date overlaps, or places where the summary promises what the experience does not back. |
+
+Why two: the recruiter makes sure it survives the screen, the Head of Product makes sure it tells a coherent, rising story. When two answers come back nearly identical, or a story has a hole, the skill surfaces it to you instead of shipping it quietly. Full rubrics are in [`qa-review-agents.md`](./skill/references/qa-review-agents.md).
 
 ---
 
@@ -170,7 +187,8 @@ Claude reads the CV over the Drive MCP, pulls the JD over the Gmail MCP, runs th
 | [`skill/references/pm-metrics-and-impact.md`](./skill/references/pm-metrics-and-impact.md) | Metrics by PM archetype, quantifying vague wins |
 | [`skill/references/pm-resume-structure.md`](./skill/references/pm-resume-structure.md) | Sections, summary, layout, fonts, ATS export |
 | [`skill/references/ats-and-keywords.md`](./skill/references/ats-and-keywords.md) | ATS reality, a PM keyword bank, JD tailoring |
-| [`skill/references/common-mistakes.md`](./skill/references/common-mistakes.md) | PM specific traps to avoid |
+| [`skill/references/common-mistakes.md`](./skill/references/common-mistakes.md) | PM specific traps to avoid, including the sameness trap |
+| [`skill/references/qa-review-agents.md`](./skill/references/qa-review-agents.md) | The two QA passes: FAANG Recruiter and Head of Product |
 | [`skill/references/pm-templates.md`](./skill/references/pm-templates.md) | The 5 templates and how to trigger each |
 
 ---
@@ -222,6 +240,7 @@ pm-resume-builder-skill/
 │       ├── pm-resume-structure.md
 │       ├── ats-and-keywords.md
 │       ├── common-mistakes.md
+│       ├── qa-review-agents.md
 │       └── pm-templates.md
 ├── templates/                      (5 ATS guaranteed templates)
 │   ├── 01-executive-serif/         (spec.md, preview.html, preview.png)

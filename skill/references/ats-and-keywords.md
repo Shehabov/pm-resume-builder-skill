@@ -26,6 +26,20 @@ An ATS is a **database + workflow tool** for recruiters, not an AI gatekeeper. M
 
 ---
 
+## Shape is shared, signal is not (the homogenization trap)
+
+Optimizing every resume toward the same known-good pattern is what makes it parse, and it is also what makes it blend in. A screener who has read a hundred look-alike FAANG resumes notices the template faster than a human would, so a resume that is nothing but the pattern can read as generic before anyone reaches the content.
+
+You do not beat that with an unusual layout, which only costs you ATS safety. You beat it by keeping the shape standard and making the signal yours:
+
+- The **company-context line** (real scale, domain, what you owned), which no template supplies.
+- **Metrics with a baseline**, which are specific to your work and cannot be pattern matched away.
+- The **specific decision and tradeoff** behind each win, the "so what" a generator does not know.
+
+Rule of thumb: standard shape, singular content. If two bullets, or two whole resumes, come back nearly identical, that is the trap surfacing, differentiate on substance, not decoration. See `common-mistakes.md` ("the sameness trap") and the FAANG Recruiter pass in `qa-review-agents.md`.
+
+---
+
 ## PM keyword bank (use the ones that are true for you)
 
 **Universal PM (most roles):**

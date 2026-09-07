@@ -40,7 +40,8 @@ Every source consulted to build this skill, and where each insight is applied. T
 | `references/pm-metrics-and-impact.md` | Exponent (metric to role), Reforge, Amplitude and Mixpanel, Lenny |
 | `references/pm-resume-structure.md` | IGotAnOffer, Exponent, Harvard, r/EngineeringResumes (mechanics), The Tech Resume and Tech Interview Handbook (ATS and section order) |
 | `references/ats-and-keywords.md` | The Tech Resume Inside Out, Tech Interview Handbook (FAANG and ATS formatting), Exponent, the IGotAnOffer keyword bank, Lever |
-| `references/common-mistakes.md` | IGotAnOffer, Exponent, HustleBadger, Harvard top 5 |
+| `references/common-mistakes.md` | IGotAnOffer, Exponent, HustleBadger, Harvard top 5, plus the sameness trap |
+| `references/qa-review-agents.md` | Synthesis: the FAANG Recruiter pass draws on IGotAnOffer, Tech Interview Handbook, The Tech Resume, and Lever; the Head of Product pass draws on Lenny Rachitsky and Shreyas Doshi (product-sense and story) |
 | `references/pm-templates.md` | Synthesis, plus the real example in `examples/` |
 
 ---
